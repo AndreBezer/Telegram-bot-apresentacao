@@ -12,7 +12,7 @@ def link():
     )
     return markup
 
-chave = "7233584354:AAHO06dUsfzPbLdZKWgKEbcr7K5Fgg4wId8"
+chave = "_Your_Key_here_"
 bot = tb.TeleBot(chave)
 
 @bot.message_handler(commands=["start"])
